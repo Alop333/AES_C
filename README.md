@@ -16,10 +16,11 @@ Este é um projeto escrito em **C** que implementa a cifra **AES (Advanced Encry
 
 ### 🔧 Compilação
 
- Compile o programa com `gcc`:
+Compile o programa com `gcc`:
 
- ```bash
- gcc -o aes aes.c
+```bash
+gcc -o aes aes.c
+```
 
 ## 🚀 Execução
 
@@ -27,6 +28,7 @@ Este é um projeto escrito em **C** que implementa a cifra **AES (Advanced Encry
 
 ```bash
 ./aes -e arquivo.txt chave123
+```
 
 ## 📌 Parâmetros:
 

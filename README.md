@@ -19,7 +19,7 @@ Este é um projeto escrito em **C** que implementa a cifra **AES (Advanced Encry
 Compile o programa com `gcc`:
 
 ```bash
-gcc -o aes aes.c
+make
 ```
 
 ## 🚀 Execução
@@ -27,7 +27,12 @@ gcc -o aes aes.c
 ### 🔐 Encriptar um arquivo:
 
 ```bash
-./aes -e arquivo.txt chave123
+./aes -e -f arquivo.txt -p chave123
+```
+
+### 🔐 Decriptar um arquivo:
+```bash
+./aes -d -f arquivo.txt.aes -p chave123
 ```
 
 ## 📌 Parâmetros:
@@ -36,9 +41,9 @@ gcc -o aes aes.c
 
 - -d: modo decriptação
 
-- arquivo: caminho do arquivo a ser processado
+- -f: caminho do arquivo a ser processado
 
-- chave: chave de 128 bits (16 caracteres) usada para a cifra AES
+- -p: chave de 128 bits (16 caracteres) usada para a cifra AES
 
 ## 📤 Saída:
 

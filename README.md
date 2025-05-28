@@ -1,4 +1,4 @@
-# 🔐 Encriptador/Decriptador AES em C
+# 🔐 Encriptador/Decriptador AES em C (LEGACY)
 
 Este é um projeto legado feito para a disciplina de **Criptografia** do curso de ciências da computação na Universidade Federal do Paraná. Ele não receberá atualizações e está sendo adicionado posterior a conclusão do curso no repositório apenas para fins de portifólio
 
